@@ -1,0 +1,200 @@
+git clone https://github.com/lakshyajitusir/pythonclass.git
+
+C:\Users\LENOVO\OneDrive\Desktop\a>cd pythonclass
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>cd basic
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\basic>notepad 1.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\basic>notepad 2.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\basic>cd..
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>cd "if else"
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\if else>notepad 3.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\if else>cd..
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git status
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git add basic
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git add "if else"
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git status
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>
+git commit -m "Added basic and if-else python programs"
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 438 bytes | 146.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lakshyajitusir/pythonclass.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'
+
+complete check
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git commit -m "Added basic and if-else python programs"
+
+some problem here
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git push -u origin main
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/lakshyajitusir/pythonclass.git/'
+
+
+
+
+This error happens because GitHub stopped password authentication ❌
+
+Now GitHub allows only:
+
+✅ Personal Access Token (PAT)
+
+✅ SSH Key
+
+Since you are using HTTPS, we will fix using Personal Access Token (Easiest Method).
+
+✅ METHOD 1: Use Personal Access Token (Recommended)
+🔹 Step 1: Generate Token on GitHub
+
+Login to your GitHub account
+
+Go to:
+
+👉 Settings
+👉 Developer Settings
+👉 Personal Access Tokens
+👉 Tokens (classic)
+👉 Generate new token (classic)
+
+OR directly visit:
+
+https://github.com/settings/tokens
+
+🔹 Step 2: Select Permissions
+
+✔ repo (Very Important)
+
+Then click:
+
+👉 Generate Token
+
+🔹 Step 3: Copy the Token
+
+⚠️ IMPORTANT
+Copy it immediately.
+You will NOT see it again.
+
+It looks like:
+
+ghp_xxxxxxxxxxxxxxxxxxxxx
+
+🔹 Step 4: Push Again
+
+Now run:
+
+git push -u origin main
+
+
+It will ask:
+
+Username:
+
+
+👉 Enter your GitHub username
+
+Password:
+
+
+👉 Paste the Personal Access Token (NOT your GitHub password)
+
+⚠️ When pasting token, nothing will show. Just paste and press Enter.
+
+
+
+
+
+
+
+
+
+
+
+
+🎯 Simple Rule to Remember
+
+Every time you change or add files:
+
+git add .
+git commit -m "message"
+git push
+
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\if else>notepad 4.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\if else>cd..
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git add .
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git commit -m " if new "
+[main f1b30ef]  if new
+ 2 files changed, 3 insertions(+)
+ create mode 100644 basic/3.py
+ create mode 100644 if else/4.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 479 bytes | 479.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lakshyajitusir/pythonclass.git
+   99cb9f6..f1b30ef  main -> main
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\loopprogram>notepad loop1.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass\loopprogram>cd..
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git add .
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git commit -m " loop new "
+[main 3d5d1ab]  loop new
+ 1 file changed, 2 insertions(+)
+ create mode 100644 loopprogram/loop1.py
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 387 bytes | 387.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lakshyajitusir/pythonclass.git
+   f1b30ef..3d5d1ab  main -> main
+
+C:\Users\LENOVO\OneDrive\Desktop\a\pythonclass>
