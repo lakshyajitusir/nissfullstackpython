@@ -1,0 +1,116 @@
+How to setup  github
+________________________
+
+(1)download  https//git-scm.com/install/windows 
+after download then install
+
+(2)open github signup  
+
+(3) new  Repository name
+
+nissfullstackpython
+dscription  python full stack 
+create repository
+copy repository path 
+https://github.com/lakshyajitusir/nissfullstackpython.git
+
+
+
+
+create folder   C(any name) in desktop(any location)
+
+
+open  c folder  then open cmd 
+
+C:\Users\LENOVO\OneDrive\Desktop\c>
+
+
+C:\Users\LENOVO\OneDrive\Desktop\c>git clone https://github.com/lakshyajitusir/nissfullstackpython.git
+Cloning into 'nissfullstackpython'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\LENOVO\OneDrive\Desktop\c>cd nissfullstackpython
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>
+
+here all folder file push in this location
+
+pythonniss  folder paste
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git add pythonniss
+
+
+
+
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git commit -m "full stack python program"
+[main (root-commit) 284466a] full stack python program
+ 13 files changed, 268 insertions(+)
+ create mode 100644 pythonniss/a.exe
+ create mode 100644 pythonniss/add.py
+ create mode 100644 pythonniss/add1.py
+ create mode 100644 pythonniss/addreal.py
+ create mode 100644 pythonniss/demo.c
+ create mode 100644 pythonniss/demo.py
+ create mode 100644 pythonniss/demo1.py
+ create mode 100644 pythonniss/demo2.py
+ create mode 100644 pythonniss/demo3.py
+ create mode 100644 pythonniss/demotest.py
+ create mode 100644 pythonniss/githubconcept
+ create mode 100644 pythonniss/mark.py
+ create mode 100644 pythonniss/t.py
+
+
+
+
+
+
+
+ C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git commit -m "full stack python program"
+
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+everyday  
+
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git add .
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git  commit -m "test"
+
+C:\Users\LENOVO\OneDrive\Desktop\c\nissfullstackpython>git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
